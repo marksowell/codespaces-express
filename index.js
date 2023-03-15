@@ -5,7 +5,7 @@ const projectName = process.env.PROJECTNAME
 
 app.get('/', (req, res) => {
   res.send(`<!DOCTYPE html>
-    <html lang="en">Hello World2! - ${projectName}</html>`)
+    <html lang="en">Hello World! - ${projectName}</html>`)
 })
 
 app.listen(port, () => {
